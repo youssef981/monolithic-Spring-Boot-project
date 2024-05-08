@@ -3,7 +3,7 @@ Here's a refactored and improved version of your README instructions, focusing o
 
 **README.md**
 
-## Dockerizing Your Spring Boot Application
+## Dockerizing The Spring Boot Application
 
 **Prerequisites**
 
@@ -63,8 +63,8 @@ Here's a refactored and improved version of your README instructions, focusing o
 * `ADD`: Copies the built JAR file into the image.
 * `ENTRYPOINT`: Specifies the command to execute when the container starts.
 
-PostgreSQL & pgAdmin with Docker Compose
 
+## PostgreSQL & pgAdmin with Docker Compose
 Docker Compose simplifies managing multiple containers by allowing you to define their configurations in a single YAML file. Here's how you can combine the PostgreSQL and pgAdmin containers into a Docker Compose configuration:
 
 1. **Create a Docker Compose YAML file**: Create a file named **`docker-compose.yml`**.
@@ -129,6 +129,7 @@ Let's break down what's happening here:
     - **`restart`**: Specifies the restart policy for the container.
 - **`networks`**: Defines the Docker network.
 - **`volumes`**: Defines the volumes required by the services.
+
 1. **Run Docker Compose**: In the directory containing the **`docker-compose.yml`** file, run:
 
 ```bash
@@ -141,9 +142,7 @@ This command will start the defined services in detached mode (background).
 With Docker Compose, you can easily manage the configurations of multiple containers, making it simple to start, stop, and modify your application stack. You can customize the configuration by modifying the YAML file as needed.
 
 > **Notions:**
-> 
-> 
-> 
+
 > > server mode vs standalone mode : ****In pgAdmin, "server mode" refers to a feature that allows pgAdmin to be run as a web application accessible by multiple users. When pgAdmin is in server mode, it provides a web interface that multiple users can access to manage their PostgreSQL databases.However, if you set `PGADMIN_CONFIG_SERVER_MODE=False`, you are disabling this server mode. In other words, you're configuring pgAdmin to run in standalone mode instead of server mode. In standalone mode, pgAdmin is typically used by a single user to manage their local PostgreSQL instance.
 > > 
 > 
