@@ -6,7 +6,6 @@ import com.youssef.companyjob.company.CompanyRepository;
 import com.youssef.companyjob.company.CompanyService;
 import com.youssef.companyjob.job.Job;
 import com.youssef.companyjob.job.JobRepository;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

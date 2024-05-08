@@ -1,4 +1,4 @@
-package com.youssef.companyjobreviewapp;
+package com.youssef.companyjob;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
